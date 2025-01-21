@@ -1,0 +1,167 @@
+/*
+font-family: "Montserrat", serif;
+*/
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", serif;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+header {
+    background-color: #2e64a1;
+    padding: 1.6rem 0;
+}
+h1 {
+    color: antiquewhite;
+    font-size: 4rem;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 3.5rem;
+    margin-left: 1rem;
+}
+nav {
+    background-color: #6da9ed;
+    margin: 0 0 2rem 0;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    flex-grow: 1;
+}
+nav ul li a {
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 0.3rem 0.6rem;
+    display: block;
+    text-align: center;
+}
+.activo {
+    background-color: #4c76a5;
+}
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+footer {
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 0.5rem 0;
+    margin-top: 2rem;
+}
+.holder {
+    max-width: 96rem;
+    margin: 0 auto;
+}
+h2 {
+    color: #2e64a1;
+}
+/* Inicio Home */
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+.bienvenidos {
+    width: 75%;
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+.bienvenidos p {
+    font-size: 2rem;
+}
+.testimonios {
+    width: 25%;
+}
+.testimonio {
+    background-color: #ccc;
+    padding: 1.6rem;
+}
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.2rem;
+    display: block;
+}
+.testimonio .autor {
+    font-size: 1rem;
+    text-align: center;
+    background-color: lightcoral;
+    display: block;
+    margin: 1.2rem 0;
+}
+/* Fin Home */
+
+/* Inicio Nosotros */
+.historia {
+    font-size: 1.2rem;
+}
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+.persona {
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    width: 18%;
+    text-align: center;
+    padding: 1.3rem;
+    box-sizing: border-box;
+}
+.persona img {
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+}
+.persona h5,
+.persona h6 {
+    margin: 0;
+    font-weight: normal;
+    color: #2e64a1;
+}
+.persona h5 {
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+}
+
+/* Fin Nosotros */
+
+/* Inicio servicios */
+.servicio {
+    border: 0.1rem solid #ccc;
+    border-radius: 1rem;
+    padding: 1.6rem;
+    margin: 1.6rem 0;
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+}
+.servicio .info h4 {
+    color: #2e6401;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 0.1rem solid #2e64a1;
+    padding: 0.1rem;
+}
+.servicio .info p {
+    font-size: 1.3rem;
+}
+.servicio img {
+    border-radius: 1.3rem;
+    display: block;
+    max-width: 22.5rem;
+}
+.servicio:nth-child(even) {
+    flex-direction: row-reverse;
+}
+/* Fin servicios */
